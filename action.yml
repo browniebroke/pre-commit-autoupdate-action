@@ -1,0 +1,14 @@
+name: 'Pre-commit autoupdate'
+description: 'Run pre-commit autoupdate and run them on all files'
+branding:
+  icon: chevrons-up
+  color: yellow
+runs:
+  using: "composite"
+  steps: 
+    - run: pip install pre-commit
+      shell: bash
+    - run: pre-commit autoupdate
+      shell: bash
+    - run: pre-commit run --all-files
+      shell: bash
