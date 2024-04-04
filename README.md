@@ -31,6 +31,7 @@ jobs:
       - uses: browniebroke/pre-commit-autoupdate-action@main
       
       - uses: peter-evans/create-pull-request@v3
+        if: always()
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: update/pre-commit-hooks
