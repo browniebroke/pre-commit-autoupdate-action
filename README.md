@@ -28,7 +28,7 @@ jobs:
 
       - uses: actions/setup-python@v5
 
-      - uses: browniebroke/pre-commit-autoupdate-action@deb83bfe0036e1116ee4e241d6220274d69b1f9e # v1.0.0
+      - uses: browniebroke/pre-commit-autoupdate-action@f5c3ec85103b9f8f9be60b9c006cec763d2bdd02 # v1.0.1
 
       - uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         if: always()
