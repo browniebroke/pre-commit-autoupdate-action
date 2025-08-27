@@ -2,10 +2,10 @@
 
 A Github Action to run `pre-commit autoupdate` and send pull request if any updates is required.
 
-> **Note**
->
+> [!NOTE]
 > This action can be replaced by [a reusable workflow](https://github.com/browniebroke/github-actions#pre-commit-auto-update), which reduces the boilerplate needed.
->
+
+> [!TIP]
 > If your project is open source, you might want to consider [pre-commit.ci](https://pre-commit.ci/), which runs auto-update weekly on Monday.
 
 Example of workflow:
